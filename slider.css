@@ -1,0 +1,31 @@
+#particles-js{
+    background: url(imagenes/360.jpg);
+    background-position: center;
+    background-attachment: contain;
+    background-size: cover; /*Toma el mismo tamaño del contenedor*/
+}
+.ancho-letra{
+    top: 200px;
+    position: absolute; /*No le hace caso al orden establecido*/
+    width: 100%;
+    text-align: center;
+    z-index: 9;
+}
+.letras-slider{
+    width: 80%;
+    margin: auto;
+}
+
+.letras-slider h1{
+    color:white;
+    font-family: rale;
+    font-size: 70px;
+}
+
+.letras-slider p{
+    color:white;
+    font-family: rale;
+    font-size: 20px;
+    padding-top: 50px;
+
+}

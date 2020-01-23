@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300&display=swap');
+*{
+    box-sizing: border-box;
+}
+
+h1,h2,h4,h5,h6{
+    text-transform: uppercase;
+    color: #444444;
+    font-family: rale;
+    letter-spacing: 1px;
+}
+h2{
+    font-size: 26px;
+    color: #333333;
+}
+
+h3{
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    line-height: 1.5;
+    padding-top: 20px;
+    font-weight: normal;
+    color: #777777;
+
+}
+
+h4{
+    margin-top: 15px;
+    font-size: 16px;
+}
+
+h5{
+    font-family: Lato, sans-serif;
+    line-height: 1.5;
+    font-weight: normal;
+    padding: 10px 0;
+    font-size: 12px;
+}
+p{
+    color: #888888;
+    font-family: Lato,sans-serif;
+    font-size: 15px;
+}
+.wap{
+    width: 90%;
+    margin: auto;
+}
+
+.bienvenidos{
+    margin-top: 50px;
+    text-align: center;
+}
+
+.contenedor-columnas{
+    width: 100%;
+    margin:auto;
+    margin-bottom: 50px;
+}
+
+.columnasx3{
+    width: 33.33%;
+    float:left;
+    text-align: center;
+    padding: 20px 20px;
+    box-sizing: border-box;
+    margin: auto;
+}
+
+.banner1{
+    width: 100%;
+    background-color: cadetblue;
+    clear: both; /*Corrige temas de alineacion con los section y float*/
+    padding-top: 30px;
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-bottom: 50px;
+    margin: auto;
+    text-align: center;
+    box-sizing: border-box;
+    transition: 0.3s;
+}
+
+.banner1 h3{
+    color: white;
+    font-size: 32px;
+}
+
+.banner1 a{
+    text-decoration: none;
+    font-weight: bold;
+    color: #ffffff;
+    border-bottom: 2px solid #ffffff;
+}
+.banner1:hover{
+    background-color: #444444;
+    transition: 0.3s;
+}
+
+.columnasx3 i {
+    float: left;
+    padding-right: 20px;
+    color: #444444;
+}
+
+.columnasx3 h4{
+    padding-bottom: 20px;
+}
+
+.banner2{
+    background: url(imagenes/22.jpg);
+    float: left;
+    width: 100%;
+    height: 200px;
+    background-repeat: no-repeat; /*No se repite*/
+    background-size: cover; /*Imagen al 100% del ancho*/
+    background-attachment: fixed; /*Posicion fija para la imagen (al scrollear)*/ 
+    text-align: center;
+    margin-top: 50px;
+}
+
+.banner2 h3{
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    font-size: 32px;
+    height: 100%;
+    padding-top: 5%;
+}
+
+.banner2 a{
+    text-decoration: none;
+    font-weight: bold;
+    color: #ffffff;
+    border-bottom: 2px solid #ffffff;
+}

@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    width: 100%;
+    background:rgba(0, 0, 0, .7) /* #1abc9c*/;
+    height: 70px;
+    position: fixed; /*Se queda fija*/
+    z-index: 10;
+}
+.ancho{
+    width: 80%;
+    height: 70px;
+    margin:auto;
+}
+.logo{
+    width: 30%;
+    height: 70px;
+    float: left; /*Se ordena lo más a la izquierda posible*/
+    padding-top: 10px; /*Baja 10px*/
+    box-sizing: border-box; /*Forzar a ocupar el ancho del contenedor. No pasa el ancho de 70px*/
+
+}
+.logo p a{
+    color: #FFF;
+    font-size: 40px;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: rale;
+}
+nav{
+    width: 70%;
+    height: 70px;
+    float: left;
+    text-align: right;
+    padding-top: 24px;
+    box-sizing: border-box;
+}
+nav ul li{
+    display: inline;
+
+}
+nav ul li a{
+    color: #FFF;
+    font-size: 13px;
+    text-decoration: none; /*Le saca las decoraciones por defecto*/
+    text-transform: uppercase;
+    padding-left: 15px;
+    font-weight: bold; /*Pone las letras en negrita*/
+    letter-spacing: 1px; /*Genera un espaciado entre letras*/
+    font-family: rale;
+}
+nav ul li a:hover{ /*Cuando se pase el mouse, hace lo siguiente*/
+    color: #444444;
+}
+@font-face{
+    font-family: rale; /*Genera un nombre para la fuente*/
+    src:url(fonts/Raleway-Regular.ttf) /*Link a la fuente en la carpeta*/
+}
